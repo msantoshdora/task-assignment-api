@@ -46,11 +46,13 @@ Example:
 1. Create a task_api database with user 'santoshdora'(or change it to your and update that in queries.js)
 2. SQL command to create tasks table in database:
 
-```CREATE TABLE tasks(
+```
+CREATE TABLE tasks(
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL,
   status TEXT DEFAULT 'open',
-  created_at DATE NOT NULL DEFAULT CURRENT_DATE);```
+  created_at DATE NOT NULL DEFAULT CURRENT_DATE);
+```
 
 **To run the server, command:**
  node index.js
