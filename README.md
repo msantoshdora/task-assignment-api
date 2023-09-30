@@ -3,13 +3,17 @@ Problem Statement: You are tasked with building a system to keep track of your t
 API to create a task.
 API to update a task
 API to get all tasks.
-API to get task metrics like counts tasks on basis of status and timeline Example:
+API to get task metrics like counts tasks on basis of status and timeline.
+Example:
+/status
+
 {
 "open_tasks": 10,
 "inprogress_tasks": 30,
 "completed_tasks": 50
 }
 
+/timeline
 [
 
 {
